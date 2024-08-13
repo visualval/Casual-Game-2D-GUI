@@ -1,0 +1,1423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FigmaConverterUnity
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: cb50b5b4038022744b7d09fe41d03007, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: imageTypeSetter.downloadableIds.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: imageTypeSetter.generativeIds.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: imageTypeSetter.drawableIds.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: imageTypeSetter.noneIds.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.uiFramework
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.uitkLinkingMode
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.positioningMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.pivotType
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.imageFormat
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.imageScale
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.preserveRatioMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.pixelsPerUnit
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.goLayer
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.spritesPath
+    value: Assets\Sprites
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.uitkOutputPath
+    value: Assets\UITK Output
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.redownloadSprites
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.rawImport
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.windowMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.projectUrl
+    value: y0HpngCYZ9tPMMohcoaqsN
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.componentsUrls.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.componentsUrls.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.componentsUrls.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.componentsUrls.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.componentsUrls.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mainSettings.componentsUrls.Array.data[4]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.componentSettings.imageComponent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.componentSettings.shadowComponent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.componentSettings.textComponent
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.componentSettings.buttonComponent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.componentSettings.useI2Localization
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings._scriptGeneratorSettings._isEnabled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings._scriptGeneratorSettings._namespace
+    value: MyNameSpace
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings._scriptGeneratorSettings._outputPath
+    value: Assets/GeneratedScripts
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.novaSettings.inputTexture
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.raycastTarget
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.preserveAspect
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.raycastPadding.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.raycastPadding.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.raycastPadding.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.raycastPadding.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.maskable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.puiSettings.falloffDistance
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.raycastTarget
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.preserveAspect
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.raycastPadding.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.raycastPadding.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.raycastPadding.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.raycastPadding.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.maskable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.mpuikitSettings.falloffDistance
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.raycastTarget
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.preserveAspect
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.raycastPadding.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.raycastPadding.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.raycastPadding.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.raycastPadding.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.maskable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.proceduralUISettings.falloffDistance
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.raycastTarget
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.preserveAspect
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.raycastPadding.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.raycastPadding.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.raycastPadding.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.raycastPadding.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityImageSettings.maskable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.raycastTarget
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.preserveAspect
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.raycastPadding.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.raycastPadding.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.raycastPadding.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.raycastPadding.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.rawImageSettings.maskable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.raycastTarget
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.preserveAspect
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.raycastPadding.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.raycastPadding.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.raycastPadding.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.raycastPadding.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.shapes2D_Settings.maskable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.srSettings.flipX
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.srSettings.flipY
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.srSettings.maskInteraction
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.srSettings.sortPoint
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.srSettings.sortingLayer
+    value: Default
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.srSettings.nextOrderStep
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.overrideLetterSpacing
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.overrideLineSpacing
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.autoSize
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.overrideTags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.wrapping
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.orthographicMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.richText
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.raycastTarget
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.parseEscapeCharacters
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.visibleDescender
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.kerning
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.extraPadding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.overflow
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.horizontalMapping
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.verticalMapping
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.geometrySorting
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.textMeshSettings.shader
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityTextSettings.fontLineSpacing
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityTextSettings.horizontalWrapMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityTextSettings.verticalWrapMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.unityTextSettings.bestFit
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.logDefault
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.logSetTag
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.logIsDownloadable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.logTransform
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.logGameObjectDrawer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.logComponentDrawer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.logHashGenerator
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.debugSettings.debugMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.prefabSettings.prefabsPath
+    value: Assets/Prefabs
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.prefabSettings.textPrefabNameType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.normalColor.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.normalColor.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.normalColor.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.normalColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.highlightedColor.r
+    value: 0.9607843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.highlightedColor.g
+    value: 0.9607843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.highlightedColor.b
+    value: 0.9607843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.highlightedColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.pressedColor.r
+    value: 0.78431374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.pressedColor.g
+    value: 0.78431374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.pressedColor.b
+    value: 0.78431374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.pressedColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.selectedColor.r
+    value: 0.9607843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.selectedColor.g
+    value: 0.9607843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.selectedColor.b
+    value: 0.9607843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.selectedColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.disabledColor.r
+    value: 0.78431374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.disabledColor.g
+    value: 0.78431374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.disabledColor.b
+    value: 0.78431374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.disabledColor.a
+    value: 0.5019608
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.colorMultiplier
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.buttonSettings.fadeDuration
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.dabSettings.blendMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settings.dabSettings.blendIntensity
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onProjectDownloadFail.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onProjectDownloadStart.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onProjectDownloaded.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onImportStart.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onImportComplete.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onImportFail.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onObjectInstantiate.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: events.onAddComponent.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: prefabCreator.pstructs.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].id
+    value: 0:0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].fade.m_Target
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].fade.speed
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].fade.m_Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].checkBoxValue._value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].checkBoxValue._temp
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].guiContent.m_Text
+    value: FRAMES TO IMPORT (3/3)
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].guiContent.m_Image
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].guiContent.m_Tooltip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].buttonGuiContent.m_Text
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].buttonGuiContent.m_Image
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._selectableHambItems.Array.data[0].buttonGuiContent.m_Tooltip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.id
+    value: 0:0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.name
+    value: Document
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.selected
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].id
+    value: 4:689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].name
+    value: Drafts
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].type
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].selected
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[0].id
+    value: 4:1052
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[0].name
+    value: frame - Landscape 4:3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[0].type
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[0].selected
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[0].childs.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[1].id
+    value: 4:1343
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[1].name
+    value: Stickers
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[1].type
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[1].selected
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[0].childs.Array.data[1].childs.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[1].id
+    value: 3:162
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[1].name
+    value: Components
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[1].type
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[1].selected
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspectorDrawer._doc.childs.Array.data[1].childs.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: requestSender.pbarProgress
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: requestSender.pbarBytes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: requestSender._requestCount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: requestSender._timeoutActive
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: requestSender._remainingTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.samplingPointSize
+    value: 90
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.atlasPadding
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.renderMode
+    value: 4169
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.atlasWidth
+    value: 512
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.atlasHeight
+    value: 512
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.atlasPopulationMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.enableMultiAtlasSupport
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.unityTmpFonts.missing.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.tmpDownloader.unityTmpFonts.existing.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontDownloader.gFontsApi.fontSubsets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFontsPath
+    value: Assets/TextMesh Pro/Fonts
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFontsPath
+    value: Assets/TextMesh Pro/Resources/Fonts & Materials
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.size
+    value: 64
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[0]
+    value: 
+    objectReference: {fileID: 12800000, guid: 1434f8e2c63724f82998d789419c19f0, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[1]
+    value: 
+    objectReference: {fileID: 12800000, guid: 97429157b50d0425c963fa088bbc9f7a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[2]
+    value: 
+    objectReference: {fileID: 12800000, guid: 64846c26af1a44842baf37295d534da1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[3]
+    value: 
+    objectReference: {fileID: 12800000, guid: 932786167b1b54a33b4d51dadb44b7d3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[4]
+    value: 
+    objectReference: {fileID: 12800000, guid: 668f0d26cf137450c9d1b55c23a73660, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[5]
+    value: 
+    objectReference: {fileID: 12800000, guid: 6e701dff8256d464c969ec227b7b9d05, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[6]
+    value: 
+    objectReference: {fileID: 12800000, guid: 6250abd5e9caf4a18b2e06b0583404de, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[7]
+    value: 
+    objectReference: {fileID: 12800000, guid: f75573ba5761b4408bc2169684d88b54, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[8]
+    value: 
+    objectReference: {fileID: 12800000, guid: b0f2baa56e9ff45cf8d8c3be209b7150, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[9]
+    value: 
+    objectReference: {fileID: 12800000, guid: efc922363bb18414ca30c29bb71df613, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[10]
+    value: 
+    objectReference: {fileID: 12800000, guid: 96c2b90cfbd7b4963b338217014cf736, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[11]
+    value: 
+    objectReference: {fileID: 12800000, guid: 6df5c699125c24956a749186ac74aeff, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[12]
+    value: 
+    objectReference: {fileID: 12800000, guid: f228fb501c4634134a6895c1e760ee91, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[13]
+    value: 
+    objectReference: {fileID: 12800000, guid: 3f5660343feb642a7810019e3d731c4d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[14]
+    value: 
+    objectReference: {fileID: 12800000, guid: 03571211948674f87a35c0acb2da97c0, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[15]
+    value: 
+    objectReference: {fileID: 12800000, guid: 48b678c6397144636931cd201bb81d30, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[16]
+    value: 
+    objectReference: {fileID: 12800000, guid: 5eb092f6164a34a3594d9d6e1945724d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[17]
+    value: 
+    objectReference: {fileID: 12800000, guid: 67570b6beef634ca98b191ea9999db0f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[18]
+    value: 
+    objectReference: {fileID: 12800000, guid: 92cb86dd409d24eacbdf28396eddef0d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[19]
+    value: 
+    objectReference: {fileID: 12800000, guid: 22415692d435f42e6b7c1093f10399c9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[20]
+    value: 
+    objectReference: {fileID: 12800000, guid: 818fd3971f9f74bd0a4f3d8a229eaf04, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[21]
+    value: 
+    objectReference: {fileID: 12800000, guid: 0a03d6273320b404180b018218f5674b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[22]
+    value: 
+    objectReference: {fileID: 12800000, guid: a12cb5a9b2ec14a73a06ec17ff780600, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[23]
+    value: 
+    objectReference: {fileID: 12800000, guid: 50561ac4db3a940f882c89d963e5a096, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[24]
+    value: 
+    objectReference: {fileID: 12800000, guid: 4460806d19b7146479e86a062c451ae6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[25]
+    value: 
+    objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[26]
+    value: 
+    objectReference: {fileID: 12800000, guid: 0b4f1ac20ec9348e9b30e71bf64289a6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[27]
+    value: 
+    objectReference: {fileID: 12800000, guid: f5e52dd7e0f774fd099b6a7a2276d663, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[28]
+    value: 
+    objectReference: {fileID: 12800000, guid: 2897e3299de3e4d64ac6ff711fa438eb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[29]
+    value: 
+    objectReference: {fileID: 12800000, guid: 15ed78b1c22de43d2a392e99936902d4, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[30]
+    value: 
+    objectReference: {fileID: 12800000, guid: b674237f1efd74b0dabdaf4282c0ffc4, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[31]
+    value: 
+    objectReference: {fileID: 12800000, guid: ba965b7bb62114d5dbc4d422ad8b9201, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[32]
+    value: 
+    objectReference: {fileID: 12800000, guid: 4f5d52a5a9cb54404b44de91781672d8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[33]
+    value: 
+    objectReference: {fileID: 12800000, guid: e714deacc22fd459ca6e6709940f931b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[34]
+    value: 
+    objectReference: {fileID: 12800000, guid: 530296c12e8ea42cd99c4cbae06fb5f0, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[35]
+    value: 
+    objectReference: {fileID: 12800000, guid: 45f0cb20c06584d7b80d4696c8e5f146, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[36]
+    value: 
+    objectReference: {fileID: 12800000, guid: 6a807a9ccb1dc4e66ac76e7e612fb633, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[37]
+    value: 
+    objectReference: {fileID: 12800000, guid: acb2f1adbd06d464e9350990d9b0a39b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[38]
+    value: 
+    objectReference: {fileID: 12800000, guid: ba2f89058ba7b4fcb9181a4319cfbf76, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[39]
+    value: 
+    objectReference: {fileID: 12800000, guid: 90619dc22cebd41bb9bd989a2fe2a5c4, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[40]
+    value: 
+    objectReference: {fileID: 12800000, guid: 871f04b45fd334808b67120ba24acd5d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[41]
+    value: 
+    objectReference: {fileID: 12800000, guid: 649d3602c6f0a4f2586fbc2c902e195f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[42]
+    value: 
+    objectReference: {fileID: 12800000, guid: d9efbe733528f484687dd2d95cc490c4, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[43]
+    value: 
+    objectReference: {fileID: 12800000, guid: 0772a995ffd924982a201fae1318712f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[44]
+    value: 
+    objectReference: {fileID: 12800000, guid: 94736d62a0fdc40839f137c14dece4f8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[45]
+    value: 
+    objectReference: {fileID: 12800000, guid: d75e699fd1616480e8240ce004cef8be, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[46]
+    value: 
+    objectReference: {fileID: 12800000, guid: 5a5e2ea504f8747d189f106ef9da2ad1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[47]
+    value: 
+    objectReference: {fileID: 12800000, guid: 2a00ea44578d340659b7455af2566a7e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[48]
+    value: 
+    objectReference: {fileID: 12800000, guid: 31487df94a4c74a0a80008dc31cd7619, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[49]
+    value: 
+    objectReference: {fileID: 12800000, guid: 2ac346f4e5d1142ec921a640104ea8ba, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[50]
+    value: 
+    objectReference: {fileID: 12800000, guid: 82d49fdb81988468a84a9ea4ac8d3fe9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[51]
+    value: 
+    objectReference: {fileID: 12800000, guid: 7da07cebdfc404f6385f5a3d435d79ea, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[52]
+    value: 
+    objectReference: {fileID: 12800000, guid: 4bedb8974911b489e9317163fb9d1dc7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[53]
+    value: 
+    objectReference: {fileID: 12800000, guid: c603150816ec74401820a455ef5ce3c4, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[54]
+    value: 
+    objectReference: {fileID: 12800000, guid: 35020dc4d882e444f91a650783d14afa, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[55]
+    value: 
+    objectReference: {fileID: 12800000, guid: e297faf4540244694abc3d8f4b56e606, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[56]
+    value: 
+    objectReference: {fileID: 12800000, guid: a727e218be04a41f68fa1011e4752ab0, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[57]
+    value: 
+    objectReference: {fileID: 12800000, guid: 384eee4e422374d8a9139d948c26e166, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[58]
+    value: 
+    objectReference: {fileID: 12800000, guid: da3248f59d7874328b4f33253057f3c7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[59]
+    value: 
+    objectReference: {fileID: 12800000, guid: 439b53ef6d8254352a86bf46d01de0e2, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[60]
+    value: 
+    objectReference: {fileID: 12800000, guid: 94ba32e99f39b4b86ae5fa488ad17ed5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[61]
+    value: 
+    objectReference: {fileID: 12800000, guid: f6391d1e18edf4a64af3cad903f45a18, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[62]
+    value: 
+    objectReference: {fileID: 12800000, guid: 950f0fed38de448d9af9c5e9e0b3eb1b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.ttfFonts.Array.data[63]
+    value: 
+    objectReference: {fileID: 12800000, guid: 3dc8b144916c74dfda40841a467f13ca, type: 3}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.size
+    value: 65
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 8bde8c3b75be541d09dbfd3ef7df42f1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[1]
+    value: 
+    objectReference: {fileID: 11400000, guid: 9048fa1f03bfe42a383b893540ce8929, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[2]
+    value: 
+    objectReference: {fileID: 11400000, guid: 44d9bd388d70b424bb6ed978ccf53556, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[3]
+    value: 
+    objectReference: {fileID: 11400000, guid: bc20eea53309843a39c7f45b344ae6e0, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[4]
+    value: 
+    objectReference: {fileID: 11400000, guid: 34f9b57ccf7854f49b8ca69f3b2e799b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[5]
+    value: 
+    objectReference: {fileID: 11400000, guid: 391af1e195561462aa53dd1f18c88499, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[6]
+    value: 
+    objectReference: {fileID: 11400000, guid: 503c82e54979b4ff799e7176ee6a6691, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[7]
+    value: 
+    objectReference: {fileID: 11400000, guid: 755c2f1df052f469fa5ceffd5b540ad2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[8]
+    value: 
+    objectReference: {fileID: 11400000, guid: 119dcc80a672f42e1b76cfb36962357e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[9]
+    value: 
+    objectReference: {fileID: 11400000, guid: cbef0ad5376104287866c02c60f8d59f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[10]
+    value: 
+    objectReference: {fileID: 11400000, guid: 78eb49799de5d4eaab43c7796d2c0246, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[11]
+    value: 
+    objectReference: {fileID: 11400000, guid: ad758ae1fa1814258bb2048674868a03, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[12]
+    value: 
+    objectReference: {fileID: 11400000, guid: ebc3502a158fb4831a0bdace1231c68b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[13]
+    value: 
+    objectReference: {fileID: 11400000, guid: 2663baa040d2f4fe5a424f39f44a1c44, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[14]
+    value: 
+    objectReference: {fileID: 11400000, guid: bf4180be43c7249f6aa2f36b41dbef4a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[15]
+    value: 
+    objectReference: {fileID: 11400000, guid: cd472b2e17a914124bcb3be5e9fa9645, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[16]
+    value: 
+    objectReference: {fileID: 11400000, guid: c024713e936964a12a8c6fbecdb37342, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[17]
+    value: 
+    objectReference: {fileID: 11400000, guid: 72d6d3fb8eeb44852b0f08e0c3a2fb14, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[18]
+    value: 
+    objectReference: {fileID: 11400000, guid: 741ddfae1eb5142fc96482c3eeea73f3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[19]
+    value: 
+    objectReference: {fileID: 11400000, guid: 34a1bd1f6774b4f6b956feaec0a09cc3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[20]
+    value: 
+    objectReference: {fileID: 11400000, guid: 690b186726a9442e3a79865d765b77ca, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[21]
+    value: 
+    objectReference: {fileID: 11400000, guid: d3c63dce3a17f49839bd4bc0b98b0b6a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[22]
+    value: 
+    objectReference: {fileID: 11400000, guid: 6c86db7de7ae94acaba73729f1a2df85, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[23]
+    value: 
+    objectReference: {fileID: 11400000, guid: 4320db27a9a334daf9dee72fd2dab06c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[24]
+    value: 
+    objectReference: {fileID: 11400000, guid: 678df87b0e129462c925295a901ee0a9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[25]
+    value: 
+    objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[26]
+    value: 
+    objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[27]
+    value: 
+    objectReference: {fileID: 11400000, guid: 3d02a29915be741018f9e9a705ef40d5, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[28]
+    value: 
+    objectReference: {fileID: 11400000, guid: 4ce31f11c41384754902c98e8912878d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[29]
+    value: 
+    objectReference: {fileID: 11400000, guid: 033c753b6767a4e7dafc0112d2e9fa1d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[30]
+    value: 
+    objectReference: {fileID: 11400000, guid: cf668b2d9d2214f42a079b9a7d17589a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[31]
+    value: 
+    objectReference: {fileID: 11400000, guid: 0bc7066e7f95e4cc8b4194122a784fdb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[32]
+    value: 
+    objectReference: {fileID: 11400000, guid: 809f8110f16be4fa6be715a26384b340, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[33]
+    value: 
+    objectReference: {fileID: 11400000, guid: 8e788c82bc25d462180f92115f5cda0a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[34]
+    value: 
+    objectReference: {fileID: 11400000, guid: 8d4bab4fa48b94531a0da28270825f91, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[35]
+    value: 
+    objectReference: {fileID: 11400000, guid: a2b8b4eb6b58441969c5364a5e53fec4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[36]
+    value: 
+    objectReference: {fileID: 11400000, guid: 9c8624ca4640843828bb73a90c573e25, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[37]
+    value: 
+    objectReference: {fileID: 11400000, guid: 1a18f4324b1444183be73da0788ec530, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[38]
+    value: 
+    objectReference: {fileID: 11400000, guid: a750876bbeff94719beaf6d43bd7fcb4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[39]
+    value: 
+    objectReference: {fileID: 11400000, guid: 3f02c02c50df440d6bb71780406b7511, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[40]
+    value: 
+    objectReference: {fileID: 11400000, guid: 17e16f82f39284e33b46551c9b4303e8, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[41]
+    value: 
+    objectReference: {fileID: 11400000, guid: ffe3126858e6c45cfab8ab29223a74d1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[42]
+    value: 
+    objectReference: {fileID: 11400000, guid: 01257234a5f134b669e62cf88a2dbdd2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[43]
+    value: 
+    objectReference: {fileID: 11400000, guid: 64a74b44316554a8984c37b6ae5a5171, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[44]
+    value: 
+    objectReference: {fileID: 11400000, guid: 2297c266f20ed4d289d58ccf9c343acf, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[45]
+    value: 
+    objectReference: {fileID: 11400000, guid: 3de5a6ade9eea4a1591b060e023000f3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[46]
+    value: 
+    objectReference: {fileID: 11400000, guid: f40409224613d40d08989c7ce8479117, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[47]
+    value: 
+    objectReference: {fileID: 11400000, guid: 43630158d8e0d4680b11688e9e8ea6f4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[48]
+    value: 
+    objectReference: {fileID: 11400000, guid: 43dcad848013542e0aa82dcade50d0b3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[49]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7e3df5f588fcc450dabb455d65f12acb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[50]
+    value: 
+    objectReference: {fileID: 11400000, guid: 732acd7853b8a4756b32adff0d1d7b60, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[51]
+    value: 
+    objectReference: {fileID: 11400000, guid: bdffd714548bf40b0991540aa2962f48, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[52]
+    value: 
+    objectReference: {fileID: 11400000, guid: fd781707520b24c15a6137e9afd27f2e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[53]
+    value: 
+    objectReference: {fileID: 11400000, guid: fc6efbd381e67486196ed07db48ba38f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[54]
+    value: 
+    objectReference: {fileID: 11400000, guid: 17e0e166222de4257bf8f66e41b5f7c7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[55]
+    value: 
+    objectReference: {fileID: 11400000, guid: 59397cd3595a54c7b9981a3e0cb3f7e2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[56]
+    value: 
+    objectReference: {fileID: 11400000, guid: 4a66f5d36be144ad390a6dc125b0059f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[57]
+    value: 
+    objectReference: {fileID: 11400000, guid: 9950fbc1b3e534babb39b3b4ffd6c75b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[58]
+    value: 
+    objectReference: {fileID: 11400000, guid: 2f6430215464a469db829705e0de804c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[59]
+    value: 
+    objectReference: {fileID: 11400000, guid: fe1395e021cc94f3f803a62ab9ade677, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[60]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7da778fda3837450b9c92d4a0ba8b45b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[61]
+    value: 
+    objectReference: {fileID: 11400000, guid: 6c504530b248541f5a3decb09cf1bb97, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[62]
+    value: 
+    objectReference: {fileID: 11400000, guid: 2b17733f2bfcb4180ac6138d95c8acb4, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[63]
+    value: 
+    objectReference: {fileID: 11400000, guid: b7549af8ac8e54c82a3ec7c979385036, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fontLoader.tmpFonts.Array.data[64]
+    value: 
+    objectReference: {fileID: 11400000, guid: cbc79497d786340beb82cfce0aad739b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: tools.needShowRateMe
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: currentProject.lastImportedFrames.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: currentProject.localPrefabs.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spriteGenerator.rectTransform
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spriteGenerator.meshRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spriteGenerator.meshFilter
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spriteGenerator.camera
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: guid
+    value: 7c61f25c
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

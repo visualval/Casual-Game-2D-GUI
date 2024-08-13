@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 8d671ec9d6ea34251b4c4466aa6d2e6b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 18
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Spline Sans Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ed8e540c908204ce8b9d0155bdfde6ee, type: 3}
+  - {fileID: 12800000, guid: 8423eff7b805449a1b8a54dedf42b862, type: 3}
+  - {fileID: 12800000, guid: 67ce81e4d8a884af1a7a2304d1538184, type: 3}
+  - {fileID: 12800000, guid: 963b787a178b94115a7eddd1b05b7ed0, type: 3}
+  - {fileID: 12800000, guid: ab88f3ab2d9f747f2be5dd9c97ba1327, type: 3}
+  - {fileID: 12800000, guid: 76b44378931b4437eaddad952f7eaf08, type: 3}
+  - {fileID: 12800000, guid: c897b9b270be9440b8f46fa70c008971, type: 3}
+  - {fileID: 12800000, guid: d0b16dae540dd4d38912d34112550d1b, type: 3}
+  - {fileID: 12800000, guid: 78ff97254beaf4987873cccd087e4c80, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
