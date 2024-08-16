@@ -4,8 +4,8 @@ using System.Text;
 using TMPro;
 using UnityEngine;
 
-namespace VisualDesign.Tools.Typography
 
+namespace VisualDesign
 {
     public class TMPStyleBuilder : MonoBehaviour
     {
@@ -13,9 +13,9 @@ namespace VisualDesign.Tools.Typography
         public string OpenTags;
         public string CloseTags;
 
-        [ContextMenu(itemName:"Read Values from TMP")]
+        [ContextMenu(itemName: "Read Values from TMP")]
 
-        public void ReadValuesFromTMP ()
+        public void ReadValuesFromTMP()
         {
             StringBuilder openSB = new StringBuilder();
             StringBuilder closeSB = new StringBuilder();
@@ -77,10 +77,6 @@ namespace VisualDesign.Tools.Typography
             OpenTags = openSB.ToString();
             CloseTags = closeSB.ToString();
         }
-
-
     }
-
 }
-
 
