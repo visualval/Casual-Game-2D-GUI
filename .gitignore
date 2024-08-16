@@ -59,6 +59,8 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+# exception to the rule
+!Assets/2D UI Pkgs/*.unitypackage
 *.app
 
 # Crashlytics generated file
