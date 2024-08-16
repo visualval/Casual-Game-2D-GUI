@@ -57,7 +57,7 @@
         "Temp/": true,
         "UserSettings/": true
     },
-    "dotnet.defaultSolution": "Casual Game 2D GUI.sln",
+    "dotnet.defaultSolution": "Casual-Game-2D-GUI.sln",
     "editor.fontFamily": "'iA Writer Mono V', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontWeight": "normal",
     "scm.providerCountBadge": "hidden"

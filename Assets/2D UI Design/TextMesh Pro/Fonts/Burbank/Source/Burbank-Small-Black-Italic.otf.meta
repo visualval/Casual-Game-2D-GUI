@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 0d10e71d7e3fc4c22bfb8851aedc7299
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 18
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - BurbankSmall-BoldItalic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 494b260a6b3d842a9bbacb31b10649f2, type: 3}
+  - {fileID: 12800000, guid: 45ba0b9cac39943e2bb34ce74bc6909f, type: 3}
+  - {fileID: 12800000, guid: a07229ad39d1e4d11bbda07f53c0b5af, type: 3}
+  - {fileID: 12800000, guid: 8293586b5962f48ccadb20ce9036d615, type: 3}
+  - {fileID: 12800000, guid: 3067bc5b17e184ad29033fe7d10e857c, type: 3}
+  - {fileID: 12800000, guid: 7516ac99f47444e568b545f6577684ad, type: 3}
+  - {fileID: 12800000, guid: 0c7dc800a981143839454b8677537a8d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 1
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6c6cf00b4ccfe444c85f42dc7c194488
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 18
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - BurbankBigRegular-Bold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7ab3421b011a845dcad857494957a472, type: 3}
+  - {fileID: 12800000, guid: 841e1077189154779bbc22f29155ed09, type: 3}
+  - {fileID: 12800000, guid: c321ac4dd67f141df84f45c41f62f4e1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 1
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

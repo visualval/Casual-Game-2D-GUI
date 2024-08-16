@@ -22,13 +22,13 @@ MonoBehaviour:
   m_missingGlyphCharacter: 0
   m_warningsDisabled: 1
   m_defaultFontAsset: {fileID: 11400000, guid: 2b17733f2bfcb4180ac6138d95c8acb4, type: 2}
-  m_defaultFontAssetPath: 
-  m_defaultFontSize: 40
+  m_defaultFontAssetPath: 2D UI Design/TextMesh Pro/Fonts/
+  m_defaultFontSize: 24
   m_defaultAutoSizeMinRatio: 0.75
   m_defaultAutoSizeMaxRatio: 1.25
-  m_defaultTextMeshProTextContainerSize: {x: 72, y: 24}
-  m_defaultTextMeshProUITextContainerSize: {x: 72, y: 24}
-  m_autoSizeTextContainer: 0
+  m_defaultTextMeshProTextContainerSize: {x: 104, y: 32}
+  m_defaultTextMeshProUITextContainerSize: {x: 104, y: 32}
+  m_autoSizeTextContainer: 1
   m_IsTextObjectScaleStatic: 1
   m_fallbackFontAssets:
   - {fileID: 11400000, guid: 361ee53ba9ffe43a4acb05927ecd2f68, type: 2}
@@ -38,12 +38,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d34daf81f7224df69665a76f73a7c50, type: 2}
   m_matchMaterialPreset: 1
   m_defaultSpriteAsset: {fileID: 11400000, guid: c41005c129ba4d66911b75229fd70b45, type: 2}
-  m_defaultSpriteAssetPath: Sprite Assets/
+  m_defaultSpriteAssetPath: 2D UI Design/TextMesh Pro/Sprites/
   m_enableEmojiSupport: 1
   m_MissingCharacterSpriteUnicode: 0
-  m_defaultColorGradientPresetsPath: Gradient Presents/
+  m_defaultColorGradientPresetsPath: 2D UI Design/TextMesh Pro/Gradients/
   m_defaultStyleSheet: {fileID: 11400000, guid: 64b1186de9e5b41429738cffd26d2548, type: 2}
-  m_StyleSheetsResourcePath: Style Sheets/
+  m_StyleSheetsResourcePath: 2D UI Design/TextMesh Pro/StyleSheets/
   m_leadingCharacters: {fileID: 4900000, guid: d82c1b31c7e74239bff1220585707d2b, type: 3}
   m_followingCharacters: {fileID: 4900000, guid: fade42e8bc714b018fac513c043d323b, type: 3}
   m_UseModernHangulLineBreakingRules: 0
